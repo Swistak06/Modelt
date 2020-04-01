@@ -54,10 +54,6 @@
                     "name": "backoffice",
                     "contextPath": "/backoffice"
                 }
-                {
-                    "name": "cmscockpit",
-                    "contextPath": "/cmscockpit"
-                }
             ]
         },
         {
