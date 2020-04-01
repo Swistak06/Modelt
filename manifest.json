@@ -167,7 +167,7 @@
                     }
                     {
                      "key":"storefrontContextRoot",
-                     "value":"<yourcustomstorefront>"
+                     "value":""
                      },
             ],
             "webapps": [
