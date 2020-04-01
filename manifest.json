@@ -24,6 +24,18 @@
    ],
    "storeFrontExtension": "yacceleratorstorefront",
    "storeFrontWebRoot": "/yacceleratorstorefront",
+    "storefrontAddons": [
+    {
+      "addon": "smarteditaddon",
+      "storefront": "yacceleratorstorefront",
+      "template": "yacceleratorstorefront"
+    },
+    {
+       "addon": "personalizationaddon",
+       "storefront": "<yourcustomstorefront>",
+       "template": "yacceleratorstorefront"
+    }
+  ],
    "properties": [
         {
             "key": "test.property.1",
