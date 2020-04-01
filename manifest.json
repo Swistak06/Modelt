@@ -76,6 +76,10 @@
                 {
                     "name": "yacceleratorstorefront",
                     "contextPath": "/backoffice"
+                },
+                {
+                    "name": "acceleratorservices",
+                    "contextPath": "/acceleratorservices"
                 }
             ]
         },
