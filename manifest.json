@@ -254,9 +254,9 @@
                   {
                   "name": "hac",
                   "contextPath": "/hac"
-                  },
-         ]
-        },
+                  }
+            ]
+        }
     ]
 }
 
