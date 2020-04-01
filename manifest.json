@@ -1,6 +1,8 @@
 {
    "commerceSuiteVersion": "1811.5",
    "extensions": [
+       "modeltacceleratorservices",
+       "electronicsstore",
        "yacceleratorstorefront",
        "backoffice",
        "platformbackoffice",
@@ -9,8 +11,16 @@
        "yacceleratorfulfilmentprocess",
        "solrfacetsearchbackoffice",
        "commerceservicesbackoffice",
-       "cmscockpit",
-       "smartedit"
+       "smartedit",
+       "smarteditaddon",
+       "cmsbackoffice",
+       "cmssmartedit",
+       "cmssmarteditwebservices",
+       "cmswebservices",
+       "permissionswebservices",
+       "previewwebservices",
+       "smarteditwebservices",
+       "personalizationsmartedit"
    ],
    "storeFrontExtension": "yacceleratorstorefront",
    "storeFrontWebRoot": "/yacceleratorstorefront",
