@@ -211,10 +211,6 @@
                  "contextPath": "/cmssmarteditwebservices"
                  },
                  {
-                 "name": "cmswebservices",
-                 "contextPath": "/cmswebservices"
-                 },
-                 {
                  "name": "previewwebservices",
                  "contextPath": "/previewwebservices"
                  },
