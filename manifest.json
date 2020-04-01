@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": "/backoffice"
+                    "contextPath": ""
                 },
                 {
                     "name": "acceleratorservices",
