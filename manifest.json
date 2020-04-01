@@ -164,11 +164,11 @@
                     {
                         "key":"xss.filter.header.X-Frame-Options",
                         "value":""
-                    }
+                    },
                     {
                      "key":"storefrontContextRoot",
                      "value":""
-                     },
+                     }
             ],
             "webapps": [
                 {
