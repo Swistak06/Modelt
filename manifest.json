@@ -186,7 +186,7 @@
                 {
                     "name": "permissionswebservices",
                     "contextPath": "/permissionswebservices"
-                }
+                },
                 {
                     "name": "yacceleratorstorefront",
                     "contextPath": "/storefront"
