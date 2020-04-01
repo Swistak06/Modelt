@@ -57,10 +57,6 @@
                 {
                     "name": "cmscockpit",
                     "contextPath": "/cmscockpit"
-                },
-                {
-                    "name": "smartedit",
-                    "contextPath": "/smartedit"
                 }
             ]
         },
@@ -133,7 +129,103 @@
                     "contextPath": "/backoffice"
                 }
             ]
-        }
+        },
+      {
+            "name": "api",
+            "properties": [
+                    {
+                        "key":"xss.filter.header.X-Frame-Options",
+                        "value":""
+                    }
+                    {
+                     "key":"storefrontContextRoot",
+                     "value":"<yourcustomstorefront>"
+                     },
+            ],
+            "webapps": [
+                {
+                    "name": "ycommercewebservices",
+                    "contextPath": "/rest"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                },
+                {
+                    "name": "cmswebservices",
+                    "contextPath": "/cmswebservices"
+                },
+                {
+                    "name": "permissionswebservices",
+                    "contextPath": "/permissionswebservices"
+                }
+                {
+                    "name": "yacceleratorstorefront",
+                    "contextPath": "/storefront"
+                },
+                {
+                 "name": "smartedit",
+                 "contextPath": "/smartedit"
+                 },
+
+                 {
+                 "name": "cmssmartedit",
+                 "contextPath": "/cmssmartedit"
+                 },
+
+                 {
+                 "name": "smarteditwebservices",
+                 "contextPath": "/smarteditwebservices"
+                 },
+
+                 {
+                 "name": "cmssmarteditwebservices",
+                 "contextPath": "/cmssmarteditwebservices"
+                 },
+                {
+                 "name": "oauth2",
+                 "contextPath": "/authorizationserver"
+                 },
+                 {
+                 "name": "cmswebservices",
+                 "contextPath": "/cmswebservices"
+                 },
+
+                 {
+                 "name": "permissionswebservices",
+                 "contextPath": "/permissionswebservices"
+                 },
+
+                 {
+                 "name": "previewwebservices",
+                 "contextPath": "/previewwebservices"
+                 },
+                {
+                 "name": "mediaweb",
+                 "contextPath": "/medias"
+                 },
+
+                 {
+                  "name": "personalizationsmartedit",
+                  "contextPath": "/personalizationsmartedit"
+                  },
+
+                  {
+                  "name": "personalizationpromotionssmartedit",
+                  "contextPath": "/personalizationpromotionssmartedit"
+                  },
+
+                  {
+                  "name": "personalizationwebservices",
+                  "contextPath": "/personalizationwebservices"
+                  },
+
+                  {
+                  "name": "personalizationsearchsmartedit",
+                  "contextPath": "/personalizationsearchsmartedit"
+                  },
+                  ]
+        },
     ]
 }
 
