@@ -1,12 +1,11 @@
 {
-   "commerceSuiteVersion": "1905.12",
+   "commerceSuiteVersion": "1905.15",
    "extensions": [
        "modeltacceleratorservices",
        "electronicsstore",
        "yacceleratorstorefront",
        "backoffice",
        "platformbackoffice",
-       "electronicsstore",
        "basecommercebackoffice",       
        "yacceleratorfulfilmentprocess",
        "solrfacetsearchbackoffice",
@@ -21,7 +20,8 @@
        "permissionswebservices",
        "previewwebservices",
        "smarteditwebservices",
-       "personalizationsmartedit"
+       "personalizationsmartedit",
+       "apparelstore"
    ],
    "storeFrontExtension": "yacceleratorstorefront",
    "storeFrontWebRoot": "/yacceleratorstorefront",
