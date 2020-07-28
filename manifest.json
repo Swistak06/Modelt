@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion": "1905.15",
+   "commerceSuiteVersion": "1905.17",
    "extensions": [
        "modeltacceleratorservices",
        "electronicsstore",
@@ -21,30 +21,111 @@
        "previewwebservices",
        "smarteditwebservices",
        "personalizationsmartedit",
-       "apparelstore"
+       "yb2bacceleratorstorefront",
+       "commerceorgsamplesaddon",
+       "promotionenginesamplesaddon",
+       "textfieldconfiguratortemplateaddon",
+       "assistedservicestorefront",
+       "assistedservicepromotionaddon",
+       "customerticketingaddon",
+       "orderselfserviceaddon",
+       "adaptivesearchsamplesaddon",
+       "pcmbackofficesamplesaddon",
+       "personalizationsearchsamplesaddon",
+       "b2bacceleratoraddon",
+       "commerceorgaddon"
+       
    ],
-   "storeFrontExtension": "yacceleratorstorefront",
-   "storeFrontWebRoot": "/yacceleratorstorefront",
     "storefrontAddons": [
     {
-      "addon": "smarteditaddon",
-      "storefront": "yacceleratorstorefront",
-      "template": "yacceleratorstorefront"
-    },
-    {
-       "addon": "personalizationaddon",
-       "storefront": "yacceleratorstorefront",
-       "template": "yacceleratorstorefront"
-    }
+            "addon": "commerceorgsamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "promotionenginesamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicepromotionaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "customerticketingaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "adaptivesearchsamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "pcmbackofficesamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationsearchsamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon":"b2bacceleratoraddon",
+            "storefront":"yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon":"commerceorgaddon",
+            "storefront":"yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        }
   ],
    "properties": [
         {
-            "key": "test.property.1",
-            "value": "test.property.1.value"
+            "key": "yacceleratorstorefront.webroot",
+            "value": "/yacceleratorstorefront"
         },
         {
-            "key": "test.property.2",
-            "value": "test.property.2.value"
+            "key": "yb2bacceleratorstorefront.webroot",
+            "value": "/yb2bacceleratorstorefront"
         }
     ],
    "project": "ps_cc2v1",
@@ -86,11 +167,19 @@
                 },
                 {
                     "key": "spring.session.yacceleratorstorefront.cookie.path",
-                    "value": "/"
+                    "value": "/yacceleratorstorefront"
                 },
                 {
-                    "key":"storefrontContextRoot",
-                    "value":""
+                    "key": "spring.session.yb2bacceleratorstorefront.save",
+                    "value":"async"
+                },
+                {
+                    "key": "spring.session.yb2bacceleratorstorefront.cookie.name",
+                    "value": "JSESSIONID"
+                },
+                {
+                    "key": "spring.session.yb2bacceleratorstorefront.cookie.path",
+                    "value": "/yb2bacceleratorstorefront"
                 }
             ],
             "webapps": [
@@ -103,8 +192,12 @@
                     "contextPath": "/medias"
                 },
                 {
+                    "name": "yb2bacceleratorstorefront",
+                    "contextPath": "/yb2bacceleratorstorefront"
+                },
+                {
                     "name": "yacceleratorstorefront",
-                    "contextPath": ""
+                    "contextPath": "/yacceleratorstorefront"
                 },
                 {
                     "name": "acceleratorservices",
