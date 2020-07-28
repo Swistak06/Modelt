@@ -33,8 +33,16 @@
        "pcmbackofficesamplesaddon",
        "personalizationsearchsamplesaddon",
        "b2bacceleratoraddon",
-       "commerceorgaddon"
-       
+       "commerceorgaddon",
+       "configurablebundleaddon",
+       "consignmenttrackingaddon",
+       "captchaaddon",
+       "accountsummaryaddon",
+       "secureportaladdon",
+       "b2bpunchoutaddon",
+       "acceleratorstorefrontcommons",
+       "yacceleratorfacades",
+        
    ],
     "storefrontAddons": [
     {
@@ -99,6 +107,36 @@
         },
         {
             "addon":"commerceorgaddon",
+            "storefront":"yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon":"configurablebundleaddon",
+            "storefront":"yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon":"consignmenttrackingaddon",
+            "storefront":"yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon":"captchaaddon",
+            "storefront":"yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon":"accountsummaryaddon",
+            "storefront":"yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+       {
+            "addon":"secureportaladdon",
+            "storefront":"yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon":"b2bpunchoutaddon",
             "storefront":"yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
